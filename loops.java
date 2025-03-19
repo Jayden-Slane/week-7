@@ -8,8 +8,6 @@ public class loops {
         System.out.print("Enter 1 or 0:");
         response = input.nextInt();
     } while (response == 1);
-    
-    
 
 
     }
