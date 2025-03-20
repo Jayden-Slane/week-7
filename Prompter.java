@@ -2,19 +2,21 @@ import java.util.*;
 public class Prompter {
     public static void main (String[]args){
 
+        int min;
+        int max;
         int number;
-        int number2;
 
 
 Scanner input = new Scanner(System.in);
 System.out.print("Enter max: ");
-number = input.nextInt();
+max = input.nextInt();
 System.out.print("Enter min: ");
-number = input.nextInt();
+min = input.nextInt();
 
 do{
-    System.out.println("Enter a number between min and max: ");
-}
+    System.out.print("Enter a number between " + min + " and " +max + ": ");
+    number = input.nextInt();
+}while((number <= min)||(number >=max));
 
 
     }
