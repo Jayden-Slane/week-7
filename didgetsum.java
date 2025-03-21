@@ -16,7 +16,7 @@ do{
     number = number /10;
 }while(number  != 0);
 
-System.out.print(result);
+System.out.print("The sum of all of these didgets is " + result);
 
 
     }
