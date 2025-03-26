@@ -13,7 +13,7 @@ public class oddsum {
 
         }
 
-
+        System.out.print(sum);
 
     }
     
