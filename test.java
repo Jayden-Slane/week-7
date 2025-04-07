@@ -1,14 +1,14 @@
 public class test {
-    public static void main (String[]args){
-String input = "Mxyzptlk";
-for (int i=0; i{
-char c = input.charAt(i);
-if (c == 'y')
-{
-break;
+    public static void main(String args[]) {
+        
+        int A = 1;
+        int B = 2;
+        while ((A < B) || (B < 5))
+        {
+        A++;
+        B++;
+        }
+        System.out.print(A);
+        System.out.print(B);
 }
-System.out.print(c);
-}
-    }
-    
 }
